@@ -14,8 +14,8 @@ Initialized empty Git repository in /Users/andrewtseng/Desktop/tutorial_git/.git
 ```
 Now the local repository is established, we could connect this local repo to the remote repo. "git remote add" means that we try to connect a remote repo (that's why it has a URL) to your local repo. to see what remote site is connected, use "git remote -v". as you can see, the remote server now has a name called "origin", so later on when we push a file to remote, we puch it to origin. 
 ```
-git remote add origin https://github.com/atseng17/git-tutorial.git
-git remote -v
+$ git remote add origin https://github.com/atseng17/git-tutorial.git
+$ git remote -v
 origin https://github.com/atseng17/git-tutorial.git (fetch)
 origin https://github.com/atseng17/git-tutorial.git (push)
 ```
