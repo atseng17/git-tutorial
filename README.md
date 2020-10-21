@@ -1,11 +1,14 @@
+# Git Introduction
 The easiest way to get onself familier with git is to do a practical example, such that one can experience all the trouble one will meet when working on your own project. By the way using git via terminal on you local machine needs a setup that wont take you more than 5 minutes, so if you havent done so, please follow the git startup using this link: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup.
 let's think of a scenerial, when we have two files in our working directory, and then you have decided that this working directory would be your project directory. I created a file called "tutorial_git", then created two random text files, for demonstration, I call them "First_file.txt" and "Second_file.txt". So, the directory might look like this…
+```
 $ pwd
 /Users/andrewtseng/Desktop/tutorial_git
 $ ls
 First_file.txt Second_file.txt
 "tutorial_git/" will be our project directory, so lets initialize it such that git could keep track of this project folder.
 $ git init
+```
 Initialized empty Git repository in /Users/andrewtseng/Desktop/tutorial_git/.git/
 Now the local repository is established, we could connect this local repo to the remote repo. "git remote add" means that we try to connect a remote repo (that's why it has a URL) to your local repo. to see what remote site is connected, use "git remote -v". as you can see, the remote server now has a name called "origin", so later on when we push a file to remote, we puch it to origin. 
 git remote add origin https://github.com/atseng17/git-tutorial.git
