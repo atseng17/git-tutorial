@@ -102,6 +102,7 @@ To https://github.com/atseng17/git-tutorial.git
 * [new branch]      master -> master
 ```
 now you should see a file in you git remote repo
+
 reference:
 https://frontendmasters.com/courses/git-in-depth/working-area-staging-area-repository/
 https://www.google.com/search?q=git+add+commit&sxsrf=ALeKk02kMt5ckWx74qc7uixu5eujEx3FBA:1593826718687&tbm=isch&source=iu&ictx=1&fir=d7sk_Httjsin4M%252CA6TjBZTtF7Ni_M%252C_&vet=1&usg=AI4_-kQKii9p6pbrJzlZvmXtA0wQmOUxjQ&sa=X&ved=2ahUKEwiBgpqbu7LqAhWvgXIEHTtSDpoQ_h0wAHoECAkQBA&biw=1336&bih=672#imgrc=yfW5rzkHU64b8M
