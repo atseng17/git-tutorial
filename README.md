@@ -89,7 +89,7 @@ As you can see that the file in the status of the file in the staging area is no
 $ git commit -m "adding lines in  first file"
 ```
 ```
-git push origin master
+$ git push origin master
 Username for 'https://github.com': atseng17
 Password for 'https://atseng17@github.com':
 Enumerating objects: 6, done.
@@ -101,7 +101,7 @@ Total 6 (delta 0), reused 0 (delta 0)
 To https://github.com/atseng17/git-tutorial.git
 * [new branch]      master -> master
 ```
-now you should see a file in you git remote repo
+Now you should see a file in you git remote repo!
 
 reference:
 https://frontendmasters.com/courses/git-in-depth/working-area-staging-area-repository/
